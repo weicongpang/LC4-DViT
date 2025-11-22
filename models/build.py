@@ -1,9 +1,3 @@
-# --------------------------------------------------------
-# DCNv4
-# Copyright (c) 2024 OpenGVLab
-# Licensed under The MIT License [see LICENSE for details]
-# --------------------------------------------------------
-
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -14,13 +8,14 @@ from .flash_intern_image import FlashInternImage
 from .vit_dcnv4 import create_vit_dcnv4_model
 from .resnet import resnet50
 from .resnet import resnet18
+from .mobilenetv2 import mobilenetv2
 
 def build_model():
     # model_type = 'flash_intern_image'
     # model_type = 'intern_image'
     # model_type = 'vit_dcnv4'  # Use the new ViT-DCNv4 hybrid model
     # model_type = 'resnet50'
-    model_type = 'resnet18'
+    model_type = 'vit_dcnv4'
 
     
     if model_type == 'intern_image':
@@ -68,13 +63,15 @@ def build_model():
     elif model_type == 'vit_dcnv4':
         # Create ViT-DCNv4 hybrid model
         model = create_vit_dcnv4_model(
-            num_classes=config.MODEL.NUM_CLASSES,
-            image_size=512  # Fixed image size for remote sensing
+            num_classes=8,     
+            image_size=512    
         )
     elif model_type == 'resnet50':
-        model = resnet50(pretrained=False)
+        model = resnet50(pretrained=False, num_classes=8)
     elif model_type == 'resnet18':
-        model = resnet18(pretrained=False)
+        model = resnet18(pretrained=False, num_classes=8)
+    elif model_type == 'mobilenetv2':
+        model = mobilenetv2(num_classes=8)
     else:
         raise NotImplementedError(f"Unknown model: {model_type}")
 
