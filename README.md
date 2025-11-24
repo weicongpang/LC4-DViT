@@ -32,7 +32,8 @@ LVC2-DViT/
 1. **Vision Transformer**
 2. **FlashInternImage**
 3. **DViT (Deformable Vision Transformer)**
-
+4. **MobileNetV2**
+5. **Resnet50**
 
 
 ## Running Environment
