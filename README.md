@@ -1,4 +1,4 @@
-# LVC2-DViT: LandView Creation for Landview Classification
+# LVC2-DViT: Land-cover Creation for Land-cover Classification
 
 ## Project Introduction
 
