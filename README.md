@@ -47,8 +47,8 @@ LVC2-DViT/
 
 1. **Clone the project and initiate conda environment**
 ```bash
-git clone https://github.com/weicongpang/-LVC2-DViT-Landview-Creation-for-Landview-Classification.git
-cd -LVC2-DViT-Landview-Creation-for-Landview-Classification
+git clone https://github.com/weicongpang/LVC2-DViT.git
+cd LVC2-DViT
 conda create -n lcv2dvit python=3.12
 conda activate lcv2dvit
 ```
