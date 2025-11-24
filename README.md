@@ -99,6 +99,8 @@ The testing script will:
 - Calculate various classification metrics
 - Save detailed result reports
 
+## Processed Dataset
+We also provided our processed dataset, which is available at *[Processed Data](https://huggingface.co/datasets/williampang/AIDGTFGEN/tree/main)*.
 
 ## Pretrained Models
 We also provided our proposed pretrained checkpoint DViT model, which is available at *[Checkpoint Model](https://huggingface.co/williampang/lvc2-dvit_all_models/blob/main/final_trained_dvit.pth)*.
