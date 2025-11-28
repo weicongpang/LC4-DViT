@@ -1,4 +1,4 @@
-# LC4-DViT: Land-cover Creation for Land-cover Classification
+# LC4-DViT: Land-cover Creation for Land-cover Classification with Deformable Vision Transformer
 
 ## Project Introduction
 
