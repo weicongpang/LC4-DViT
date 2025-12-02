@@ -12,7 +12,7 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 IMAGE_DIR = os.path.join(CURRENT_DIR, "CFTrain")
 OUTPUT_DIR = os.path.join(CURRENT_DIR, "output")
 STABLE_DIFFUSION_URL = "http://127.0.0.1:7860"
-API_KEY = "sk-4bnlGhpyBVlJN5TFmz6V4dpy4yAXEZbEk22nn4kp3IcdSEGn"
+API_KEY = ""
 
 # 基本生成参数
 MODEL_NAME = "landscapeRealistic_v20WarmColor.safetensors [ca2e3bd9f9]"       # Stable Diffusion模型
