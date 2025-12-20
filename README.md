@@ -103,7 +103,7 @@ The testing script will:
 We also provided our processed dataset, which is available at *[Processed Data](https://huggingface.co/datasets/williampang/AIDGTFGEN/tree/main)*.
 
 ## Pretrained Models
-We also provided our proposed pretrained checkpoint DViT model, which is available at *[Checkpoint Model](https://huggingface.co/williampang/LC4-dvit_all_models/blob/main/final_trained_dvit.pth)*.
+We also provided our proposed pretrained checkpoint DViT model, which is available at *[Checkpoint Model](https://huggingface.co/williampang/lvc2-dvit_all_models/resolve/main/final_trained_dvit.pth)*.
 
 ## Performance Metrics
 
