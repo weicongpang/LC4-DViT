@@ -114,7 +114,27 @@ The testing script calculates the following metrics:
 - **Precision/Recall/F1-score**: Precision/Recall/F1-score, all in macro
 - **Per-class Accuracy/Precision/Kappa/F1-score**: Accuracy for each class
 
-
+## RRDBNet Super-Resolution
+The conda environment for the super-resolution part can be installed as:
+```bash
+conda create --name S_R python=3.8
+source activate S_R
+cd src/Super_resolution
+pip install -r requirements.txt
+```
+Also, you may need to install these two code-base:  
+The first one:
+```bash
+pip install git+https://github.com/XPixelGroup/BasicSR.git
+```
+The second one:
+```bash
+pip install git+https://github.com/xinntao/Real-ESRGAN.git
+```
+Then running the RRDBNet model code within the Real-ESRGAN framework to do the super-resolution steps for the dataset.
+```bash
+python Super_Resolution.py
+```
 
 
 
