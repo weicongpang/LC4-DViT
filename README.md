@@ -119,7 +119,7 @@ The conda environment for the super-resolution part can be installed as:
 ```bash
 conda create --name S_R python=3.8
 source activate S_R
-cd src/Super_resolution
+cd Super_resolution
 pip install -r requirements.txt
 ```
 Also, you may need to install these two code-base:  
