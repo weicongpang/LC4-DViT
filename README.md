@@ -1,6 +1,6 @@
 # LC4-DViT: Land-cover Creation for Land-cover Classification with Deformable Vision Transformer
 
-🏆 Best Student Paper Competition Finalist, 2026 IEEE International Geoscience and Remote Sensing Symposium
+🏆 Student Paper Competition Finalist, 2026 IEEE International Geoscience and Remote Sensing Symposium
 
 ## Project Introduction
 
